@@ -20,7 +20,7 @@ body {
     background-color: var(--background);
     margin: 0;
     color: #FCF8ED;
-    background-color: rgb(5, 42, 53);
+    background-color: rgb(42, 98, 116);
     font-family: 'Ruda', sans-serif;
 }
 
@@ -40,6 +40,7 @@ h1 {
 }
 
 .container > * {
+    background-color: var(--primary);
     padding: 20px;
     border: 1px solid 
 }
@@ -52,16 +53,19 @@ h1 {
 }
 
 .content {
+    background-color: var(--primary);
     grid-area: content;
     text-align: center;
 }
   
 .side {
+    background-color: var(--primary);
     grid-area: sidebar;
     font-family: 'Ruda', sans-serif
 }
 
 .footer {
+    background-color: var(--primary);
     grid-area: footer;
     text-align: center;
 }
@@ -84,7 +88,7 @@ h1 {
       grid-template-areas:
         "header  header"
         "sidebar content"
-        "footer      footer";
+        "footer   footer";
     }
 }
 
@@ -97,10 +101,8 @@ h1 {
             "content content sidebar"
             "content content sidebar"
             "footer  footer   footer"
-    }
-    nav ul {
-       flex-direction: column;
-    }
+        }
+
 
     details{
         cursor: pointer;
