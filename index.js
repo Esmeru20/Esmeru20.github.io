@@ -26,7 +26,7 @@ function myFunction() {
 
 **/
 
-const element = document.getElementById("myBtn");
+let element = document.getElementById("myBtn");
 element.addEventListener("click", function() {
   document.getElementById("demo").innerHTML = "Entretenimiento. Cuidado personal y psicologico.";
 });
@@ -42,7 +42,10 @@ function myFunction() {
 
 **/
 
-
+let element2 = document.getElement2ById("myBtn2");
+element2.addEventListener("click", function() {
+  document.getElement2ById("demo2").innerHTML = "Ilustración vectorial, diseño. Atención al público y con proveedores (presencial y remota).";
+});
 
 /** Article - 03 Asistente juridico 
 
@@ -54,3 +57,8 @@ function myFunction() {
 }
 
 **/
+
+let element3 = document.getElement3ById("myBtn3");
+element3.addEventListener("click", function() {
+  document.getElement3ById("demo3").innerHTML = "Confección de documentación. Entrega de legajos y gestión de tramites. Digitalización y mantenimiento de documentos digitales.";
+});
