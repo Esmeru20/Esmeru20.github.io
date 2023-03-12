@@ -140,7 +140,7 @@ h1 {
 
 [data-theme="dark"] {
     --primary: rgb(42, 98, 116);
-    --background: rgb(5, 42, 53);
+    --background: #052a35;
     --text: #FCF8ED;
 }
 
@@ -207,3 +207,10 @@ input:checked + .slider:before {
     -ms-transform: translateX(26px);
     transform: translateX(26px);
 }
+
+/* Elementos con enlaces */
+
+#Esmeruland {
+    color: rgb(211, 170, 94);
+}
+
