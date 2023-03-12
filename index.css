@@ -229,7 +229,7 @@ input:checked+.slider:before {
 
 button {
     cursor: pointer;
-    color: rgb(111, 90, 170);
+    color: rgb(238, 227, 128);
 }
 
 /* Elementos con enlaces */

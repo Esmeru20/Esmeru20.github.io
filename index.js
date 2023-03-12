@@ -15,7 +15,7 @@ slider.addEventListener('click', () => {
 
 setTheme(localStorage.getItem('theme') || preferedColorScheme);
 
-// Article - 01 Niñera //
+/** Article - 01 Niñera 
 
 const element1 = document.getElement1ById("myBtn");
 element.addEventListener("click", myFunction);
@@ -23,6 +23,13 @@ element.addEventListener("click", myFunction);
 function myFunction() {
     document.getElement1ById("demo").innerHTML = "Entretenimiento. Cuidado personal y psicologico.";
 }
+
+**/
+
+const element = document.getElementById("myBtn");
+element.addEventListener("click", function() {
+  document.getElementById("demo").innerHTML = "Entretenimiento. Cuidado personal y psicologico.";
+});
 
 /** Article - 02 Productora Gráfica 
 
@@ -35,7 +42,7 @@ function myFunction() {
 
 **/
 
-ooooo
+
 
 /** Article - 03 Asistente juridico 
 
