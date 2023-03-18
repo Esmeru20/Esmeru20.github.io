@@ -94,7 +94,7 @@ h1 {
         grid-template-areas:
             "header  header"
             "sidebar content"
-            "footer   footer";
+            "sidebar   footer";
     }
 }
 
@@ -106,7 +106,7 @@ h1 {
             "header  header   header"
             "content content sidebar"
             "content content sidebar"
-            "footer  footer   footer"
+            "footer  footer  sidebar"
     }
 
 
@@ -224,7 +224,7 @@ input:checked+.slider:before {
 }
 
 #objetivos {
-    display: flexbox;
+    text-indent: 1%;
 }
 
 button {
