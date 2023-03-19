@@ -13,6 +13,7 @@ h1 {
     font-family: 'Ruda', sans-serif;
     color: #FCF8ED;
     text-align: center;
+    margin: 0;
 }
 
 img {
@@ -39,10 +40,6 @@ ul {
 a {
     color: inherit;
     text-decoration: none;
-}
-
-h1 {
-    margin: 0;
 }
 
 .container>* {
@@ -161,6 +158,7 @@ button {
     margin-top: 20px;
     font-weight: bold;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 /* Estilos del switch */
@@ -228,12 +226,29 @@ input:checked+.slider:before {
 }
 
 button {
-    cursor: pointer;
     color: rgb(238, 227, 128);
+}
+
+h3 {
+    color: rgb(223, 159, 100);
+}
+
+.sub {
+    color: #FCF8ED;
 }
 
 /* Elementos con enlaces */
 
 #Esmeruland {
-    color: rgb(211, 170, 94);
+    color: rgb(241, 99, 146);
+}
+
+/* Botones info exp */
+
+.hideText {
+  display: none;
+}
+
+.showText {
+  display: block;
 }
